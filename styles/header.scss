@@ -1,0 +1,47 @@
+.header{
+    background-image: url("../imagens/image-hero.jpg");
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 auto;
+    background-size:100%;
+    color:$color-claro;
+    padding-top:60px ;
+    h3{
+        font-family: $fuente2;
+        font-size: 40px;
+        margin-top:-20px ;
+    }
+    &__titulo{
+        display: flex;
+        justify-content: space-around;
+        font-family: $fuente2;
+    }
+    &__hero{
+      letter-spacing: 5px;
+      font-weight: 100;
+      font-size: 20px;
+      padding: 25px;
+      width: 35%;
+      margin:120px 0 0 200px;
+      font-family: $fuente1;
+      border: 1px solid $color-claro;
+    }
+}
+.contenedor__link{
+  left: 100px;
+  position: relative;
+  &--list{
+      display: flex;
+      list-style: none;
+      width: 350px;
+      justify-content: space-between;
+      a{
+        font-size: 15px;
+        text-decoration: none;
+        color: $color-claro;
+      }
+}
+
+}

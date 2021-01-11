@@ -1,0 +1,24 @@
+.header {
+  background-image: url("../imagens/image-hero.jpg");
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-size: 1100px;
+}
+.header__titulo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contenedor__link {
+  padding-left: 15px;
+}
+
+.contenedor__link--list {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  list-style: none;
+}

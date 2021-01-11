@@ -1,0 +1,48 @@
+.footer {
+  background-color: rgb(28, 32, 34);
+  color: $color-claro;
+  padding-top: 45px;
+  height: 150px;
+  &__redes {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    p {
+      font-family: $fuente2;
+      font-size: 25px;
+    }
+    img{
+        width: 30px;
+        margin-left: 10px;
+        border: solid $color-claro 1px;
+        border-radius: 50px;
+    }
+    a{
+        text-decoration: none;
+    }
+  }
+  &__contact {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    ul {
+      display: flex;
+    }
+    li {
+      list-style: none;
+      margin-right: 25px;
+    }
+    a {
+      font-size: 18px;
+      text-decoration: none;
+      color: $color-claro;
+    }
+p{
+    font-size: 15px;
+    opacity: 0.5;
+}
+  }
+}

@@ -1,0 +1,131 @@
+.article {
+  margin: 100px auto;
+  width: 75%;
+  &__titulo {
+    display: flex;
+    justify-content: space-between;
+  }
+    h1 {
+      font-size: 35px;
+      font-family: $fuente1;
+      opacity: 0.6;
+    }
+    input {
+      height: 30px;
+      width: 130px;
+      background-color: $color-claro;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 15px;
+      opacity: 0.6;
+    }
+  }
+ 
+  .article__imagenes {
+    display: grid;
+    grid-template-columns: repeat( 10,185px);
+    grid-template-rows: repeat( 1,250px);
+    grid-column-gap:20px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    margin-top: 80px;
+    padding-bottom: 16px;
+    .item1{
+       @include item;
+       background-image: $item1;
+        a {
+          @include name-img;
+          color: $color-claro;
+        }
+    }
+    .item2{
+        @include item;
+        background-image: $item2;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item3{
+        @include item;
+        background-image: $item3;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item4{
+        @include item;
+        background-image: $item4;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item5{
+        @include item;
+        background-image: $item5;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item6{
+        @include item;
+        background-image: $item6;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item7{
+        @include item;
+        background-image: $item7;
+        a {
+          @include name-img;
+          color: $color-claro;
+          }
+     }
+    .item8{
+        @include item;
+        background-image: $item8;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item9{
+        @include item;
+        background-image: $item9;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+    .item10{
+        @include item;
+        background-image: $item10;
+        a {
+            @include name-img;
+            color: $color-claro;
+          }
+     }
+
+}
+
+
+.article__imagenes::-webkit-scrollbar {
+  height: 10px;
+  background-color: $color-claro;
+}
+.article__imagenes::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #ccc;
+}
+.article__imagenes::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.article__imagenes::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
