@@ -1,0 +1,37 @@
+$fuente1 :'Noto Sans KR', sans-serif;
+$fuente2: 'Rubik', sans-serif;
+$color-claro:white;
+$fuente3: 'Redressed', cursive;
+$item1:url(../imagens/image-curiosity.jpg);
+$item2:url(../imagens/image-deep-earth.jpg);
+$item3:url(../imagens/image-fisheye.jpg);
+$item4:url(../imagens/image-from-above.jpg);
+$item5:url(../imagens/image-grid.jpg);
+$item6:url(../imagens/image-night-arcade.jpg);
+$item7:url(../imagens/image-pocket-borealis.jpg);
+$item8:url(../imagens/image-soccer-team.jpg);
+$item9:url(../imagens/image-deep-earth.jpg);
+$item10:url(../imagens/image-grid.jpg);
+
+
+@mixin name-img {
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #717d7e;   
+}
+@mixin item{ 
+        border-radius: 10px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 200px 0 0 20px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+

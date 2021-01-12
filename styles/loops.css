@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("../imagens/image-hero.jpg");
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100vw;
+  margin: 0 auto;
+  background-size: 100%;
+  color: white;
+  padding-top: 60px;
+}
+.header h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  margin-top: -20px;
+}
+.header__titulo {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Rubik", sans-serif;
+}
+.header__hero {
+  letter-spacing: 5px;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 25px;
+  width: 35%;
+  margin: 120px 0 0 200px;
+  font-family: "Noto Sans KR", sans-serif;
+  border: 1px solid white;
+}
+
+.contenedor__link {
+  left: 100px;
+  position: relative;
+}
+.contenedor__link--list {
+  display: flex;
+  list-style: none;
+  width: 350px;
+  justify-content: space-between;
+}
+.contenedor__link--list a {
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.interactive {
+  display: flex;
+  justify-content: center;
+}
+.interactive__img {
+  width: 600px;
+  position: relative;
+  margin-top: 150px;
+  left: 65px;
+}
+.interactive__img img {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+}
+
+.interactive__titulo {
+  position: relative;
+  width: 550px;
+  right: 60px;
+  margin-top: 295px;
+  background-color: white;
+  padding-left: 65px;
+  padding-top: 30px;
+}
+.interactive__titulo h1 {
+  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 5px;
+}
+.interactive__titulo p {
+  padding-top: 30px;
+  font-family: "Redressed", cursive;
+  text-align: start;
+  font-size: 20px;
+}
+
+.article {
+  margin: 100px auto;
+  width: 75%;
+}
+.article__titulo {
+  display: flex;
+  justify-content: space-between;
+}
+.article h1 {
+  font-size: 35px;
+  font-family: "Noto Sans KR", sans-serif;
+  opacity: 0.6;
+}
+.article input {
+  height: 30px;
+  width: 130px;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  opacity: 0.6;
+}
+
+.article__imagenes {
+  display: grid;
+  grid-template-columns: repeat(10, 185px);
+  grid-template-rows: repeat(1, 250px);
+  grid-column-gap: 20px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  margin-top: 80px;
+  padding-bottom: 16px;
+}
+.article__imagenes .item1 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-curiosity.jpg);
+}
+.article__imagenes .item1 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item2 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-deep-earth.jpg);
+}
+.article__imagenes .item2 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item3 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-fisheye.jpg);
+}
+.article__imagenes .item3 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item4 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-from-above.jpg);
+}
+.article__imagenes .item4 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item5 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-grid.jpg);
+}
+.article__imagenes .item5 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item6 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-night-arcade.jpg);
+}
+.article__imagenes .item6 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item7 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-pocket-borealis.jpg);
+}
+.article__imagenes .item7 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item8 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-soccer-team.jpg);
+}
+.article__imagenes .item8 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item9 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-deep-earth.jpg);
+}
+.article__imagenes .item9 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+.article__imagenes .item10 {
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px 0 0 20px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-image: url(../imagens/image-grid.jpg);
+}
+.article__imagenes .item10 a {
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #717d7e;
+  color: white;
+}
+
+.article__imagenes::-webkit-scrollbar {
+  height: 10px;
+  background-color: white;
+}
+
+.article__imagenes::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+.article__imagenes::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article__imagenes::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.footer {
+  background-color: #1c2022;
+  color: white;
+  padding-top: 45px;
+  height: 150px;
+}
+.footer__redes {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+.footer__redes p {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+}
+.footer__redes img {
+  width: 30px;
+  margin-left: 10px;
+  border: solid white 1px;
+  border-radius: 50px;
+}
+.footer__redes a {
+  text-decoration: none;
+}
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.footer__contact ul {
+  display: flex;
+}
+.footer__contact li {
+  list-style: none;
+  margin-right: 25px;
+}
+.footer__contact a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.footer__contact p {
+  font-size: 15px;
+  opacity: 0.5;
+}

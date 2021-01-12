@@ -1,0 +1,35 @@
+.interactive {
+  display: flex;
+  justify-content: center;
+  &__img {
+    width: 600px;
+    position: relative;
+    margin-top: 150px;
+    left: 65px;
+    img {
+      width: 100%;
+      height: 415px;
+      object-fit: cover;
+    }
+  }
+}
+.interactive__titulo {
+  position: relative;
+  width: 550px;
+  right: 60px;
+  margin-top: 295px;
+  background-color: $color-claro;
+  padding-left: 65px;
+  padding-top: 30px;
+  h1 {
+    font-size: 40px;
+    font-family: $fuente1;
+    letter-spacing: 5px;
+  }
+  p {
+    padding-top: 30px;
+    font-family: $fuente3;
+    text-align: start;
+    font-size: 20px; 
+  }
+}
